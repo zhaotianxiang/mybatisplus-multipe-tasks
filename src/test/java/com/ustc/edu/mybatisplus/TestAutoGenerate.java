@@ -8,8 +8,11 @@ import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import org.junit.jupiter.api.Test;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@Ignore
 public class TestAutoGenerate {
     @Test
     public void autoGenerate() {

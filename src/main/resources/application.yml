@@ -1,9 +1,15 @@
 spring:
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache/ehcache.xml
+
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: aini1314
-    url: jdbc:mysql://tianzhaoruixiang:3306/mybatis?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://tianzhaoruixiang:3306/user_management?useUnicode=true&characterEncoding=utf8
 
 mybatis-plus:
   configuration:
